@@ -1,0 +1,171 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c0afaf;
+}
+
+.form-container {
+    background-color: #af9292;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.form-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.form-toggle button {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 10px;
+    color: #555;
+    transition: all 0.3s ease;
+}
+
+.form-toggle button:hover, .form-toggle button.active {
+    color: #131314;
+}
+
+.form-inner {
+    display: none;
+}
+
+.form-inner.active {
+    display: block;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-family: "Dancing Script", cursive;
+    font-size: 6vh;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn button {
+    background-color: #7797b9;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 3vh;
+    transition: all 0.3s ease; 
+}
+
+.submit-btn button:hover {
+    background-color: #738496;
+} */
+
+/* Existing CSS remains unchanged */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  #c0afaf;
+}
+
+.form-container {
+    background-color:  #af9292;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.form-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.form-toggle button {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 10px;
+    color: #555;
+    transition: all 0.3s ease;
+}
+
+.form-toggle button:hover, .form-toggle button.active {
+    color:  #131314;
+}
+
+.form-inner {
+    display: none;
+}
+
+.form-inner.active {
+    display: block;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-family: "Dancing Script", cursive;
+    font-size: 6vh;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btn button:hover {
+    background-color: #0056b3;
+}
